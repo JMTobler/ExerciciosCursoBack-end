@@ -10,12 +10,13 @@ def Calcular():
         os.system("Cls")
         Nome = input("Entre com o seu nome: ")
         
-        if Nome.isalpha():
-            break
-        else:
+        if Nome.isnumeric():
             os.system("Cls")
             print("Números são inválidos. Tente apenas letras")
             os.system("Pause")
+        else:
+            break
+            
 
     while True:
         try:
@@ -106,4 +107,3 @@ def Continuar():
         Continuar()
 
 Menu()
-          
