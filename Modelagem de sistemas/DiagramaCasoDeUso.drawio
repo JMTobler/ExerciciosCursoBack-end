@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" modified="2023-11-01T22:33:02.206Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="rK0e2dCqTAAJbEq4nRYC" version="22.0.8" type="google">
+  <diagram name="Página-1" id="9mj6Rk1io_VfkdpJFdb7">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oqhzPH47MRSaZhmtMTAz-8" value="Efetuar&lt;br&gt;Reserva" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Georgia;" vertex="1" parent="1">
+          <mxGeometry x="520" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oqhzPH47MRSaZhmtMTAz-11" value="Cancelar&lt;br&gt;Reserva" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Georgia;" vertex="1" parent="1">
+          <mxGeometry x="520" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oqhzPH47MRSaZhmtMTAz-14" value="Verificar&lt;br&gt;Disponibilidade" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Georgia;" vertex="1" parent="1">
+          <mxGeometry x="520" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oqhzPH47MRSaZhmtMTAz-15" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Georgia;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="380" y="120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oqhzPH47MRSaZhmtMTAz-18" value="Recepcionista&lt;br&gt;Do&lt;br&gt;Hotel" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fontFamily=Georgia;" vertex="1" parent="1">
+          <mxGeometry x="380" y="610" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oqhzPH47MRSaZhmtMTAz-26" value="Registrar&lt;br&gt;Check-out" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Georgia;" vertex="1" parent="1">
+          <mxGeometry x="520" y="600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oqhzPH47MRSaZhmtMTAz-33" value="Registrar&lt;br&gt;Check-in" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Georgia;" vertex="1" parent="1">
+          <mxGeometry x="520" y="510" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oqhzPH47MRSaZhmtMTAz-36" value="Emitir&lt;br&gt;Fatura" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Georgia;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="520" y="690" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oqhzPH47MRSaZhmtMTAz-37" value="Gerente&lt;br&gt;Do&lt;br&gt;Hotel" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fontFamily=Georgia;" vertex="1" parent="1">
+          <mxGeometry x="380" y="364" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oqhzPH47MRSaZhmtMTAz-39" value="Gerenciar&lt;br&gt;Reservas" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Georgia;" vertex="1" parent="1">
+          <mxGeometry x="520" y="354" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oqhzPH47MRSaZhmtMTAz-46" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oqhzPH47MRSaZhmtMTAz-15" target="oqhzPH47MRSaZhmtMTAz-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="390" as="sourcePoint" />
+            <mxPoint x="890" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oqhzPH47MRSaZhmtMTAz-47" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="150" as="sourcePoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oqhzPH47MRSaZhmtMTAz-48" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="oqhzPH47MRSaZhmtMTAz-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="240" as="sourcePoint" />
+            <mxPoint x="890" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oqhzPH47MRSaZhmtMTAz-51" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="150" as="sourcePoint" />
+            <mxPoint x="440" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oqhzPH47MRSaZhmtMTAz-52" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="oqhzPH47MRSaZhmtMTAz-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="60" as="sourcePoint" />
+            <mxPoint x="890" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oqhzPH47MRSaZhmtMTAz-53" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="oqhzPH47MRSaZhmtMTAz-37" target="oqhzPH47MRSaZhmtMTAz-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="390" as="sourcePoint" />
+            <mxPoint x="890" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oqhzPH47MRSaZhmtMTAz-55" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="oqhzPH47MRSaZhmtMTAz-18" target="oqhzPH47MRSaZhmtMTAz-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="420" as="sourcePoint" />
+            <mxPoint x="890" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oqhzPH47MRSaZhmtMTAz-56" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="640" as="sourcePoint" />
+            <mxPoint x="440" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oqhzPH47MRSaZhmtMTAz-57" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="oqhzPH47MRSaZhmtMTAz-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="550" as="sourcePoint" />
+            <mxPoint x="890" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oqhzPH47MRSaZhmtMTAz-58" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="640" as="sourcePoint" />
+            <mxPoint x="440" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oqhzPH47MRSaZhmtMTAz-59" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="oqhzPH47MRSaZhmtMTAz-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="730" as="sourcePoint" />
+            <mxPoint x="890" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
