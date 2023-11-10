@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+
+<head>
+	<title>Formularios</title>
+</head>
+
+<body>
+	<h1>Formulario (inputs)</h1>
+
+	<label>Seu nome completo:</label>
+	<input type="text" name="nome" size="60" placeholder="Digite seu nome aqui!" value="" required=""> <br>
+
+	<input type="checkbox" name=""> <label>Desativado</label>
+	<input type="checkbox" name="" checked="checked"> <label>Ativado (padrão)</label> <br>
+
+	<input type="radio" name=""> <label>Radio Boton</label>
+	<input type="radio" name="" checked="checked"> <label>Radio Boton(ativo)</label> <br>
+
+	<fieldset>
+		<legend>Radio boton em grupo</legend>
+		<input type="radio" name=""> <label>Opção 1</label>
+		<input type="radio" name=""> <label>Opção 2</label>
+	</fieldset>
+
+	<label>Senha:</label>
+	<input type="password" name="">
+
+	<label>Anexo:</label>
+	<input type="file" name=""> <br> <br>
+
+	<button type="submit">Enviar</button>
+	<br><br>
+
+	<button type="button" onclick="alert('Olá, Mundo!')">Clique aqui!!!</button>
+
+	<hr>
+
+	<h1>Formulario</h1>
+
+	<form action="" method="GET">
+
+		<label>Nome:</label>
+		<input type="text" name="nome"> <br>
+
+		<label>Endereço:</label>
+		<input type="text" name="endereco"> <br>
+
+		<fieldset>
+			<legend>Opções</legend>
+
+			<label>Opção 1
+			<input type="radio" id="1" name="opcao">
+
+			<label>Opção 2
+			<input type="radio" id="2" name="opcao">
+
+			<label>Opção 3
+			<input type="radio" id="3" name="opcao">
+		</fieldset>
+
+		<select name="estados">
+				<option>Selecione</option>
+				<option value="rj">Rj</option>
+				<option value="sp">Sp</option>
+		</select>
+
+		<input type="reset" name="">
+		<input type="submit" name="enviar" value="enviar">
+	</form>
+
+</body>
+
+</html>
