@@ -11,11 +11,11 @@
 			produto::$contador ++;
 		}
 
-		function getContador(){
+		static function getContador(){
 			return $total = produto::$contador;
 		}
 
-		function getNome($prod){
+		static function getNome($prod){
 			return $prod = $prod->nome;
 		}
 	}
