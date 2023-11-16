@@ -33,7 +33,7 @@
 
 	// Impressão dos resultados
 	echo "A quantidade de instancias é ", produto::getContador(), "<br>";
-	echo "e o nome do protudo 1 é ", $produtos1->getNome(), "<br>";
+	echo "e o nome do produto 1 é ", $produtos1->getNome(), "<br>";
 	echo "e o nome do produto 2 é ", $produtos2->getNome(), "<br>";
 
 ?>
