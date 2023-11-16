@@ -12,7 +12,7 @@
 		}
 
 		static function getContador(){
-			return $total = produto::$contador;
+			return produto::$contador;
 		}
 
 		static function getNome($prod){
